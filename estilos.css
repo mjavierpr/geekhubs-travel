@@ -81,12 +81,12 @@ footer > div.pie1 {padding: 3vh 1%; font-size: 1.1rem;}
 
 @media (max-width: 780px) {
 .cabecera {background-size: cover; background-position: 0 0;}
-.cabecera header .logo img + h1 {font-size: 1.1em;}
-.cabecera header nav a {margin: 10px; font-size: 1.4em;}
-.cabecera header .redess {flex-direction: column; display: flex;}
-.cabecera header .redess img {height: 30px; flex-direction: column;}
-.cabecera .viaja-descubre h2 {font-size: 3.2em;}
-.cabecera .viaja-descubre h3 {font-size: 2.1em; font-weight: normal;}
+.cabecera > header > .logo img + h1 {font-size: 1.1em;}
+.cabecera > header > nav > a {margin: 10px; font-size: 1.4em;}
+.cabecera > header > .redess {flex-direction: column; display: flex;}
+.cabecera > header > .redess img {height: 30px; flex-direction: column;}
+.cabecera > .viaja-descubre h2 {font-size: 3.2em;}
+.cabecera > .viaja-descubre h3 {font-size: 2.1em; font-weight: normal;}
 main > div {column-count: 2; -webkit-column-count: 2; -moz-column-count: 2;-o-column-count: 2; column-gap: 2vw;}
 main > div > div > div:first-child {width: 49vw; height: 30vw;}
 .quienessomos > div:first-child {width: 72%; height: 64%; margin-left: 3%;}
@@ -97,17 +97,17 @@ footer > div.pie1 {padding: 6vh 1%; font-size: 1.1rem;}
 }
 
 @media (max-width: 640px) {
-.cabecera header {justify-content: space-around; padding: 2vh 10vw 0 2vw;}
-.cabecera header .logo img {height: 5vh; width: 24vw;}
-.cabecera header .logo img + h1 {font-size: 1.1em;}
-.cabecera header nav {display: flex; flex-direction: column;}
-.cabecera header nav a {margin: 0; font-size: 1.4em;}
-.cabecera header .redess {position: absolute; right: 1vw;}
-.cabecera header .redess img {height: 26px;}
-.cabecera .viaja-descubre h2 {font-size: 2em;}
-.cabecera .viaja-descubre h3 {font-size: 1.3em;}
-.boton a {padding: 10px 15px; margin-top: 2rem;}
-.boton.amarillo a {font-size: 1.4rem;}
+.cabecera > header {justify-content: space-around; padding: 2vh 10vw 0 2vw;}
+.cabecera > header > .logo img {height: 5vh; width: 24vw;}
+.cabecera > header > .logo img + h1 {font-size: 1.1em;}
+.cabecera > header > nav {display: flex; flex-direction: column;}
+.cabecera > header > nav a {margin: 0; font-size: 1.4em;}
+.cabecera > header > .redess {position: absolute; right: 1vw;}
+.cabecera > header > .redess img {height: 26px;}
+.cabecera > .viaja-descubre h2 {font-size: 2em;}
+.cabecera > .viaja-descubre h3 {font-size: 1.3em;}
+.boton > *:first-child {padding: 10px 15px; margin-top: 2rem;}
+.boton.amarillo > *:first-child {font-size: 1.4rem;}
 .boton.azul a {font-size: 1.5rem;}
 main > div {column-count: 1; -webkit-column-count: 1; -moz-column-count: 1;-o-column-count: 1; column-gap: 0;}
 main > div > div > div:first-child {width: 100vw; height: 60vw;}
